@@ -1,10 +1,8 @@
-function Users(){
-    return(
-        <>
-        
-            <p>Hello</p>
-                       
-        </>  
-    )
+function Users() {
+  return (
+    <>
+      <p>Hello PR request</p>
+    </>
+  );
 }
-export default Users
+export default Users;

@@ -10,6 +10,7 @@ function App() {
   const passwordGenerator = useCallback(() => {
     let pass = ""
     let str = ""
+    let char =""
   }, [lenght, numberAllowed, characterAllowed, setpassword])
 
   
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-   <h1 className='text-4xl text-center text-white'>Password Generator</h1>
+   <h1 className='text-4xl text-center text-white bg'>Password Generator</h1>
     </>
   )
 }
